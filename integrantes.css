@@ -1,0 +1,57 @@
+container{
+    display: grid;
+    gap: 1rem;
+    grid-auto-rows: 22rem;
+    grid-template-columns: repeat(auto-fill,minmax(15rem,1fr));
+    grid-column: span 2;
+    
+}
+.uno{
+    grid-column: span 2;
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: 20px;
+    text-align:center;
+    
+}
+.dos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: 20px;
+    text-align:center;
+}
+.tres{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: 20px;
+    text-align:center;
+}
+.cuatro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: blue;
+    font-size: 20px;
+    text-align:center;
+}
+
+body{
+    background-color: bisque;
+    background-size: 100%;
+    
+}

@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <link rel="stylesheet" type = "text/css" href="index.css">
+    <link rel="stylesheet" href="slider.css">
+    <title>Neira Café Lab</title>
+    <script src="https://kit.fontawesome.com/aee54b5508.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="Logo/CafeLogo.ico" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    
+<header class="encabezado">
+        <a href="#" class="logo"><img src="Logo/Logo Cafe.jpg" width="150" height="150"></a>
+        <div class="menu" id="show-menu">
+
+         <nav class="lista">
+        
+            <li><a class="elemetoCabeza" href="#inicio">Inicio</a></li>
+            <li><a class="elemetoCabeza" href="#cafe">Cafes</a></li>
+            <li><a class="elemetoCabeza" href="#galleta">Galletas</a></li>
+            <li><a class="elemetoCabeza" href="#keke">Kekes</a></li>
+            <li><a class="elemetoCabeza" href="#promo">Promociones del dia</a></li>
+            <li><a class="elementoCabeza" href="#pedido">Carrito</a></li>
+            <li><a class="elementoCabeza" href="login.html">Login</a></li>
+
+            <br><br/>
+            <div id="ctn-icon-search">
+                <i class="fas fa-search" id="icon-search"></i>
+            </div>
+            </nav>
+        </div>
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+</header> 
+
+<script>
+    window.addEventListener('mouseover', initLandbot, { once: true });
+    window.addEventListener('touchstart', initLandbot, { once: true });
+    var myLandbot;
+    function initLandbot() {
+      if (!myLandbot) {
+        var s = document.createElement('script');s.type = 'text/javascript';s.async = true;
+        s.addEventListener('load', function() {
+          var myLandbot = new Landbot.Livechat({
+            configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-1428057-8M7PAVYZSLWWKTUB/index.json',
+          });
+        });
+        s.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        var x = document.getElementsByTagName('script')[0];
+        x.parentNode.insertBefore(s, x);
+      }
+    }
+    </script>
+<div class="container-all" id="move-content">
+       <div id="ctn-bars-search">
+        <input type="text" id="inputSearch" placeholder="¿Qué deseas buscar?">
+        </div>
+
+      <ul id="box-search">
+        <li><a href="#inicio"><i class="fas fa-search"></i>Inicio</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Cafes</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Kekes</a></li>
+        <li><a href="#promo"><i class="fas fa-search"></i>Promociones del dia</a></li>
+        <li><a href="#pedido"><i class="fas fa-search"></i>Carrito</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Late</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Capuccino</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Caramel Frapuchino</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Dopio</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Expreso</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Frape</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Lungo</a></li>
+        <li><a href="#cafe"><i class="fas fa-search"></i>Machiato</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas de alfajor</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas con chocochips</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas de chocolate</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas con crema</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galleta con lucuma</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas con manjar</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas con nutella</a></li>
+        <li><a href="#galleta"><i class="fas fa-search"></i>Galletas S'More</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de calabaza</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de chocolate</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de fresa</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de hershey</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Cupcake de oreo</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Pie de limón</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de vainilla</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de zanahoria</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de zanahoria</a></li>
+        <li><a href="#keke"><i class="fas fa-search"></i>Keke de zanahoria</a></li>
+        <li><a href="#inicio"><i class="fas fa-search"></i>Misión</li>
+        <li><a href="#inicio"><i class="fas fa-search"></i>Visión</a></li>
+       
+
+    </ul>
+    <div id="cover-ctn-search"></div>
+    <br>
+    <div class="slider">
+        <div class="slide-track">
+            <div class="slide">
+                <img src="SliderLogo/13.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/14.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/15.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/16.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/17.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/18.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/19.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/13.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/14.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/15.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/16.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/17.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/18.png" alt="">
+            </div>
+            <div class="slide">
+                <img src="SliderLogo/19.png" alt="">
+            </div>
+        </div>
+    </div>
+    
+    <section id="inicio">
+        <aside>
+            <blockquote class="bloque">
+                <div class="bloque" id="bloque1">
+                    <h1><center>Misión</center></h1> 
+                    <p>
+                        Haciendo de la experiencia del cliente un momento placentero, lleva productos únicos, 
+                        frescos y de calidad a cafeterías y panaderías, 
+                        en un ambiente agradable, al mejor precio.
+                    </p>
+                </div>
+                <div class="bloque" id="bloque2">
+                    <h1><center>Visión</center></h1> 
+                    <p>
+                        Posicionarse como el proveedor líder mundial de café en Lima, 
+                        nunca comprometer sus principios, ofrecer a los clientes y 
+                        socios una experiencia inspiradora y enriquecedora en su día.
+                    </p>
+                </div>
+            </blockquote>
+        </aside>
+    </section>
+    <br><br><br><br><br><br>
+    <section id="cafe">
+        <p class="secTitulo">Café</p>
+            <div class="secCafe">
+                <div class="c1">
+                    Late    S/.9.00 <button onclick=aC1()>Añadir</button><br>
+                    <img src="Imagenes/Café/CafeLate.jpg" alt="expresso">
+                </div>
+                <div class="c1">
+                    Capuccino   S/.9.00 <button onclick=aC2()>Añadir</button><br>
+                    <img src="Imagenes/Café/Capuchino.jpg.jpg" alt="Cappuccino">
+                </div>
+                <div class="c1">
+                    Caramel Frapuchino   S/.7.00 <button onclick=aC3()>Añadir</button><br>
+                    <img src="Imagenes/Café/CaramelFrapuchino.jpg" alt="americano"><br>
+                </div>
+                <div class="c1">
+                    Dopio S/.7.50 <button onclick=aC4()>Añadir</button><br>
+                    <img src="Imagenes/Café/Doppio.jpg" alt="cafe con leche"><br>
+                </div>
+                <div class="c1">
+                    Expreso S/.7.50 <button onclick=aC5()>Añadir</button><br>
+                    <img src="Imagenes/Café/Expreso.jpg" alt="mocca"><br>
+                </div>
+                <div class="c1">
+                    Frape S/.7.50 <button onclick=aC6()>Añadir</button><br>
+                    <img src="Imagenes/Café/Frape.jpg" alt="frappe"><br>
+                </div>
+                <div class="c1">
+                    Lungo S/.8.00 <button onclick=aC7()>Añadir</button><br>
+                <img src="Imagenes/Café/Lungo.jpg" alt="cortado"><br>
+                </div>
+                <div class="c1">
+                    Machiato S/.8.00 <button onclick=aC8()>Añadir</button><br>
+                    <img src="Imagenes/Café/Macchiato.jpg" alt="carajillo"><br>
+                </div>
+            </div>
+    </section>
+    <br><br><br><br><br><br>
+    <section id="galleta">
+        <p class="secTitulo">Galleta</p>
+        <div class="secGalleta">
+            <div class="g1" id="ga1">
+                Galletas de alfajor   S/.3.50 <button onclick=aG1()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Alfajor.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga2">
+                Galletas con chocochips   S/.3.50 <button onclick=aG2()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Chips.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga3">
+                Galletas de chocolate   S/.3.50 <button onclick=aG3()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Chocolate.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga4">
+                Galletas con crema        S/3.50 <button onclick=aG4()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Crema.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga5">
+                Galleta con lucuma     S/4.00 <button onclick=aG5()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Lucuma.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga6">
+                Galletas con manjar  S/3.00 <button onclick=aG6()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Manjar.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga7">
+                Galletas con nutella  S/3.00 <button onclick=aG7()>Añadir</button><br>
+                <img src="Imagenes/Galleta/Nutella.jpg" alt="galletas"><br>
+            </div>
+            <div class="g1" id="ga8">
+                Galletas S'More  S/3.00 <button onclick=aG8()>Añadir</button><br>
+                <img src="Imagenes/Galleta/S'More.jpg" alt="galletas"><br>
+            </div>
+        </div>
+
+    </section>
+    <br><br><br><br><br><br>
+    <section id="keke">
+    <p class="secTitulo">Kekes</p>
+        <div class="secKeke">
+            <div class="k1">
+                Keke de calabaza     S/.5.00 <button onclick=aK1()>Añadir</button><br>
+                <img src="Imagenes/Keke/calabaza.jpg" alt="naranja"><br>
+            </div>
+            <div class="k1">
+                Keke de chocolate   S/.5.00 <button onclick=aK2()>Añadir</button><br>
+                <img src="Imagenes/Keke/chocolate.jpg" alt="chocolate"><br>
+            </div>
+            <div class="k1">
+                Keke de fresa     S/.5.00 <button onclick=aK3()>Añadir</button><br>
+                <img src="Imagenes/Keke/fresa.jpg" alt="marmoleado"><br>
+            </div>
+            <div class="k1">
+                Keke de hershey   S/.5.00 <button onclick=aK4()>Añadir</button><br>
+                <img src="Imagenes/Keke/hershey.jpg" alt="zanahoria"><br>
+            </div>
+            <div class="k1">
+                Cupcake de oreo          S/.5.00 <button onclick=aK5()>Añadir</button><br>
+                <img src="Imagenes/Keke/oreo-cupcake.jpg" alt="keke ingles"><br>
+            </div>
+            <div class="k1">
+                Pie de limon      S/.5.00 <button onclick=aK6()>Añadir</button><br>
+                <img src="Imagenes/Keke/piedelimon.jpg" alt="de limon"><br>
+            </div>
+            <div class="k1">
+                Keke de vainilla   S/.5.00 <button onclick=aK7()>Añadir</button><br>
+                <img src="Imagenes/Keke/vainilla.jpg" alt="mandarina"><br>
+                </div>
+            <div class="k1">
+                Keke de zanahoria       S/.5.00 <button onclick=aK8()>Añadir</button><br>
+                <img src="Imagenes/Keke/zanahoria.jpg" alt="marmoleado"><br>
+            </div> 
+        </div>
+        
+    </section>
+    <br><br><br><br><br><br>  
+    <section id="promo">
+        <p class="secTitulo">Promociones</p>
+            <div id="PROMO">
+
+            </div>
+     <section id="pedido">  
+          
+    </section class="carrito">
+        <hr>
+        <p id="titulo">PEDIDO(S)</p>
+        <button id="limpiarTodoCarrito" onclick=limpiarTodo() >Limpiar carrito</button>
+        <input type="checkbox" id="btn-modal">
+	<label for="btn-modal" class="lbl-modal">Pagar</label>
+	<div class="modal">
+		<div class="contenedor">
+			<header>Pago mediante Yape</header>
+			<label for="btn-modal">X</label>
+			<div class="contenido">
+				<h3><img src="Imagenes/Yape.jpeg" alt="Yape"><br></h3><br>
+				
+                <div id="ca1">
+                </div>
+                 <div id="ga1">
+                </div>
+                <div id="ke1">
+                </div>
+            </div>
+        </div>
+    </div>
+        <hr>
+       <div class="pedidos">
+            <div class="pedido" id="CAFES">
+                <p>Café(s)</p>
+                <div id="ca">
+                    
+                </div>
+            </div>
+            <div class="pedido" id="GALLETAS">
+                <p>Galleta(s)</p>
+                <div id="ga">
+                    
+                </div>
+            </div>
+            <div class="pedido" id="KEKES">
+                <p>Kéke(s)</p>
+                <div id="ke">
+                    
+                </div>
+            </div>
+
+            
+
+
+
+            
+       </div>
+       
+        <hr>
+        <p id="total">TOTAL: S/</p><label id="sumaTotal"></label><br>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content-container">
+                <h3 class="website-logo">Neira Lab</h3>
+                <span class="footer-info">(01) 3180398</span>
+                
+                <span class="footer-info">cafeina@neiracafelab.com</span>
+                <div>
+                    <center><h2>Ubicanos en:</h2>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.929559696856!2d-77.0420314843389!3d-12.116972146511586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c83b7a17f963%3A0x74e914ef741c614d!2sNeira%20Caf%C3%A9%20Lab!5e0!3m2!1ses-419!2spe!4v1671102468964!5m2!1ses-419!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </center>
+                </div>   
+            </div>
+            <div class="footer-menus">
+                <div class="footer-content-container">
+                    <span class="menu-title">menu</span>
+                    <a href="#cafe" class="menu-item-footer">Cafes</a>
+                    <a href="#galleta" class="menu-item-footer">Galletas</a>
+                    <a href="#keke" class="menu-item-footer">Kekes</a>
+                </div>
+                <div class="footer-content-container">
+                    <span class="menu-title">legal</span>
+                    <a href="" class="menu-item-footer">Politica de privacidad</a>
+                    <a href="" class="menu-item-footer">Cookies</a>
+                    <a href="" class="menu-item-footer">Terminos & Condiciones</a>
+                    <p><a href="libroreclamacion.html">Libro de reclamaciones</a></p>
+                    <p><a href="integrantes.html" target="_blank">Integrantes</a></p>
+
+                </div>
+            </div>
+            <div class="footer-content-container">
+                <span class="menu-title">Siguenos</span>
+                <div class="social-container">
+                    <a href="https://www.facebook.com/neiracafelab/?ref=page_internal" >facebook</a>
+                    
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/neiracafelab/" >instagram</a>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+</div>
+<script src="index.js" type="text/javascript"></script>
+<script src="agregarCarrito.js" type="text/javascript"></script>
+</body>
+</html>

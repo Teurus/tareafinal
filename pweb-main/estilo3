@@ -1,0 +1,81 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom, #ffad65, #ffc063, #ffd463, #ffe967, #fffe70);
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    margin: 0;
+}
+
+p{
+    margin-bottom: 1.6em;
+}
+
+.container{
+    width: 90%;
+    max-width: 2000px;
+    margin: auto;
+}
+
+.header{
+    background: #2C66BC;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.logo-nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    border: solid 1px white;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: #092327;
+}
+
+.footer{
+    padding: 4rem 0;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.main{
+    padding-top: 15rem;
+}
+.secCafe {
+   align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.setGalleta {
+    align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+.secKeke {
+    align-items: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}

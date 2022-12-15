@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neira Café Lab</title>
+    <link rel="stylesheet" type = "text/css" href="estilos.css">
+</head>
+<body>
+    <header class="header" >
+        <div class="container logo-nav-container">
+            <a href="#" class="logo"><img src="Imagen/Logo Cafe.jpg" alt="neira" width="150" height="150"></a>
+            <nav class="menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#cafes">Cafes</a></li>
+                <li><a href="#galletas">Galletas</a></li>
+                <li><a href="#kekes">Kekes</a></li>
+                <li><a href="#promos">Promociones del dia</a></li>
+                <input type="text" placeholder="Buscar"/> <button>Enviar</button><br><br/>  
+            </nav>
+        </div>
+    </header> 
+<hr>
+    <section id="inicio">
+        <aside>
+            <blockquote class="bloque">
+                <div class="mision">
+                    <br><br><br><br><br><br>
+                    <h1><center>Misión</center></h1> 
+                    <p>
+                        Haciendo de la experiencia del cliente un momento placentero, lleva productos únicos, 
+                        frescos y de calidad a cafeterías y panaderías, 
+                        en un ambiente agradable, al mejor precio.
+                    </p>
+                </div>
+                <div class="vision">
+                    <h1><center>Visión</center></h1> 
+                    <p>
+                        Posicionarse como el proveedor líder mundial de café en Lima, 
+                        nunca comprometer sus principios, ofrecer a los clientes y 
+                        socios una experiencia inspiradora y enriquecedora en su día.
+                    </p>
+                </div>
+            </blockquote>
+        </aside>
+    </section>
+
+
+<hr>
+    <section class="cafes">
+        <p class="secTitulo"><h3><center>Cafés</center></h3></p>
+            <div class="secCafe">
+                <div class="c1">
+                    Late    S/.9.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/CafeLate.jpg" alt="expresso">
+                </div>
+                <div class="c1">
+                    Capuccino   S/.9.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/Capuchino.jpg.jpg" alt="Cappuccino">
+                </div>
+                <div class="c1">
+                    Caramel Frapuchino   S/.7.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/CaramelFrapuchino.jpg" alt="americano"><br>
+                </div>
+                <div class="c1">
+                    Dopio S/.7.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/Doppio.jpg" alt="cafe con leche"><br>
+                </div>
+                <div class="c1">
+                    Expreso S/.7.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/Expreso.jpg" alt="mocca"><br>
+                </div>
+                <div class="c1">
+                    Frape S/.7.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/Frape.jpg" alt="frappe"><br>
+                </div>
+                <div class="c1">
+                    Lungo S/.8.00 <button>Añadir</button><br>
+                <img src="Imagenes/Café/Lungo.jpg" alt="cortado"><br>
+                </div>
+                <div class="c1">
+                    Machiato S/.8.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Café/Macchiato.jpg" alt="carajillo"><br>
+                </div>
+            </div>
+    </section>
+
+
+<hr>
+    <section id="galletas">
+        <p class="secTitulo"><h3><center>Galletas</center></h3></p>
+        <aside>
+            <div class="setGalleta">
+                <div class="g1">
+                    Galletas de alfajor   S/.3.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Alfajor.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas con chocochips   S/.3.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Chips.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas de chocolate   S/.3.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Chocolate.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas con crema        S/3.50 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Crema.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galleta con lucuma     S/4.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Lucuma.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas con manjar  S/3.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Galleta/Manjar.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas con nutella  S/3.00 <button>Añadir</button><br>
+                <img src="Imagenes/Galleta/Nutella.jpg" alt="galletas"><br>
+                </div>
+                <div class="g1">
+                    Galletas S'More  S/3.00 <button>Añadir</button><br>
+                <img src="Imagenes/Galleta/S'More.jpg" alt="galletas"><br>
+                </div>
+            </div>
+        </aside>
+    </section>
+<hr>
+    
+    <section id="kekes">
+        <p class="secTitulo"><h3><center>Kekes</center></h3></p>
+        <aside>
+            <div class="secKeke">
+                <div class="k1">
+                    Keke de calabaza     S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/calabaza.jpg" alt="naranja"><br>
+                </div>
+                <div class="k1">
+                    Keke de chocolate   S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/chocolate.jpg" alt="chocolate"><br>
+                </div>
+                <div class="k1">
+                    Keke de fresa     S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/fresa.jpg" alt="marmoleado"><br>
+                </div>
+                <div class="k1">
+                    Keke de hershey   S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/hershey.jpg" alt="zanahoria"><br>
+                </div>
+                <div class="k1">
+                    Cupcake de oreo          S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/oreo-cupcake.jpg" alt="keke ingles"><br>
+                </div>
+                <div class="k1">
+                    Pie de limon      S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/piedelimon.jpg" alt="de limon"><br>
+                </div>
+                <div class="k1">
+                    Keke de vainilla   S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/vainilla.jpg" alt="mandarina"><br>
+                    </div>
+                <div class="k1">
+                    Keke de zanahoria       S/.5.00 <button>Añadir</button><br>
+                    <img src="Imagenes/Keke/zanahoria.jpg" alt="marmoleado"><br>
+                </div> 
+            </div>
+        </aside>
+    </section>
+
+
+<hr>    
+    <section id="promos">
+        <p><h3>Promociones del día</h3></p>
+        <aside>
+            <blockquote>
+                <marquee>Varia dependiendo el día</marquee>
+            </blockquote>
+        </aside>
+    </section>
+<hr>
+
+<hr>
+<footer class="footer">
+    <a href="https://www.facebook.com/neiracafelab/?ref=page_internal" target="_blank">Visita nuestra pagina de facebook </a> <br>
+    <img src="Logo/facebook.jpg" alt="facebook">
+</footer>
+</body>
+</html>
